@@ -9,6 +9,20 @@
   --accent-text-dark: #000;
 }
 
+/* TODO
+ - Fix custom properties for style guide
+  - Add custom properties for fonts
+  - Add custom properties for font sizes
+  - Add custom properties for line heights
+  - Add custom properties for spacing
+  - Add custom properties for border radius
+  - Add custom properties for border width
+  - Add custom properties for border color
+  - Add custom properties for box shadow
+  
+  - Follow BEM naming convention
+*/
+
 
 html,
 body {
