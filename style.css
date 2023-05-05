@@ -1,3 +1,15 @@
+:root {
+  --primary: #333;
+  --secondary: #eee;
+  --accent: #f00;
+  --accent-light: #f99;
+  --accent-dark: #900;
+  --accent-text: #fff;
+  --accent-text-light: #eee;
+  --accent-text-dark: #000;
+}
+
+
 html,
 body {
   margin: 0;
