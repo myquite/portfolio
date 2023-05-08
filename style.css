@@ -58,6 +58,21 @@ nav ul {
   display: flex;
   gap: 2rem;
 }
+
+nav li {
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--primary);
+  transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: var(--accent);
+  border-bottom: 2px solid var(--accent);
+}
   
 .hero {
   background: #eee;
