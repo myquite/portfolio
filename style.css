@@ -7,20 +7,16 @@
   --accent-text: #fff;
   --accent-text-light: #eee;
   --accent-text-dark: #000;
+  --primary-font: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  --font-size: 18px;
+  --line-height: 1.6;
+  --spacing: 2rem;
 }
 
+
 /* TODO
- - Fix custom properties for style guide
-  - Add custom properties for fonts
-  - Add custom properties for font sizes
-  - Add custom properties for line heights
-  - Add custom properties for spacing
-  - Add custom properties for border radius
-  - Add custom properties for border width
-  - Add custom properties for border color
-  - Add custom properties for box shadow
-  
-  - Follow BEM naming convention
+ - Fix custom properties for style guide  
+ - Follow BEM naming convention
 */
 
 
@@ -30,8 +26,8 @@ body {
 }
 
 body {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 18px;
+  font-family: var(--primary-font);
+  font-size: var(--font-size);
   color: var(--primary)
 }
 
@@ -58,7 +54,7 @@ header h1 > span {
 }
 
 nav {
-  margin-bottom: 2rem;
+  margin-bottom: var(--spacing);
 }
 
 nav ul {
@@ -86,7 +82,7 @@ nav a:hover {
   
 .hero {
   padding: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: var(--spacing);
 }
 
 .hero h2 {
@@ -119,7 +115,7 @@ ul {
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  margin-bottom: 1rem;
+  margin-bottom: var(--spacing);
 }
 
 .project_info {
@@ -130,12 +126,12 @@ ul {
 
 .project_info p {
   margin: 0;
-  line-height: 1.5;
+  line-height: var(--line-height);
 }
 
 .project_info a {
   display: block;
-  margin-top: 1rem;
+  margin-top: var(--spacing);
   text-decoration: none;
   color: #333;
 }
