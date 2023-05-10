@@ -7,7 +7,7 @@
   --accent-text: #fff;
   --accent-text-light: #eee;
   --accent-text-dark: #000;
-  --primary-font: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  --primary-font: 'Montserrat', sans-serif;
   --font-size: 18px;
   --line-height: 1.6;
   --spacing: 2rem;
@@ -87,7 +87,7 @@ nav a:hover {
 
 .hero h2 {
   font-size: 6rem;
-  font-weight: bolder;
+  font-weight: 900;
   margin: 0;
 }
 
