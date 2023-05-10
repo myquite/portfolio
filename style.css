@@ -81,12 +81,13 @@ nav a:hover {
 }
   
 .hero {
-  padding: 2rem;
-  margin-bottom: var(--spacing);
+  padding: var(--spacing) 0;
+  margin: var(--spacing) 0;
 }
 
 .hero h2 {
-  font-size: 5rem;
+  font-size: 6rem;
+  font-weight: bolder;
   margin: 0;
 }
 
